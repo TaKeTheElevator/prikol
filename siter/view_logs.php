@@ -53,6 +53,7 @@ function formatLogs($logEntries) {
 // Format logs
 $formattedLogs = formatLogs($logs);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
