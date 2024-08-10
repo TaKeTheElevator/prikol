@@ -1,11 +1,7 @@
 <?php
 session_start();
 
-// Check if user is logged in
-if (!isset($_SESSION['loggedin'])) {
-    header('Location: ./admin.html');
-    exit();
-}
+
 
 // Read log file
 $logFile = 'logs.txt';
